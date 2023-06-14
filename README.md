@@ -15,7 +15,7 @@ Demo project to tinker around with website development using 3js
 
 3. Start the Static Web Server
 
-    `$ serve`
+    `$ npx serve`
 
 4. VIsit the following URL in your browser
 
