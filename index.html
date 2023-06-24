@@ -4,18 +4,27 @@
 <html>
   <head lang="en">
     <meta charset="utf-8">
-      <title>Three JS Webpage</title>
-      <style>
-	      body { margin: 0; }
-        main { position: relative; display: grid; place-items: center; }
-        div { position: absolute; }
-        button { display: block; width: 200px;}
-        h1 { 
-          color: #abc;
-          margin-top: 50vh;
-        }
-      </style>
+    <title>Helidon Orbiting Station v7.3</title>
+    <style>
+      body { margin: 0; }
+      main { position: relative; display: grid; place-items: center; }
+      div { position: absolute; }
+      button { display: block; width: 200px;}
+      h1 { 
+        font-family: 'Ysabeau SC', sans-serif;
+        color: #abc;
+        margin-top: 50vh;
+      }
+      .material-symbols-outlined {
+        color: #abc;
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48
+      }
+    </style>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap" rel="stylesheet">
     <script type="importmap">
       {
         "imports": {
@@ -32,7 +41,10 @@
     <main>
       <canvas id="first-canvas-bg"></canvas>
       <div>
-        <h1>Helidon Orbiting Station v7.3</h1>
+        <h1>
+          <span class="material-symbols-outlined">satellite_alt</span>
+          Helidon Orbiting Station v7.3
+        </h1>
       </div>
     </main>
     
