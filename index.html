@@ -6,12 +6,50 @@
       <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <script type="module" src="/main.js"></script>
+    <!-- <script type="module" src="/main.js"></script> -->
+
+      <section id="about">
+        <div id="cells">
+          <header>
+            <a hef="#">A cool logo</a>
+            <ul id="menu">
+              <li><a href="#about">About</a></li>
+              <li><a href="#intro">Intro</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#role">Role</a></li>
+            </ul>
+          </header>
+          <h1>Project helidon</h1>
+        </div>
+      </section>
+      <section id="intro">
+        <div id="net">
+          <h1>Intro of the Helidon Orbiting Station v7.3</h1>
+        </div>
+      </section>
+      <section id="features">
+        <h1>
+          Features: 
+          Solar Panels
+          Battery
+          Size
+          Genetic Editor & Simulator
+          Humanity Knowledge Log - Helidon Galactic Wikipedia version JumpingFrog 38
+          12 Cryo Sleeping Chambers - Helidon Cryo Sleeper Unit v983.33.ae
+        </h1>
+      </section>
+      <section id="role">
+        <h1>
+          What can a Galactic Citizen do to Contribute?
+        </h1>
+      </section>
+
   </body>
   
   <!-- Adding scripts after the body to increase rendering speed -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.cells.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js"></script>
   <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
   <script type="importmap">
   {
@@ -31,5 +69,17 @@
       minWidth: 200.00,
       scale: 1.00
     })
-  </script> 
+  </script>
+  <script>
+    VANTA.NET({
+      el: "#net",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    })
+  </script>  
 </html>
