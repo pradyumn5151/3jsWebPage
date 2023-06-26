@@ -15,6 +15,12 @@ height: 100%;
 
 }
 
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
 #menu li{
     list-style: none;
     display: inline-block;
@@ -22,7 +28,7 @@ height: 100%;
 }
 
 #menu li a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: large;
 }
@@ -38,6 +44,7 @@ header {
     justify-content: space-between;
     padding: 20px 50px;
     align-items: center;
+    background-color: black;
 }
 
 section{
@@ -70,7 +77,6 @@ main {
 .top-header-title {
     font-family: 'Ysabeau SC', sans-serif;
     color: #abc;
-    margin-top: 50vh;
 }
 
 .material-symbols-outlined {
