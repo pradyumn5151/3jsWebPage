@@ -52,8 +52,6 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-<<<<<<< HEAD
-=======
 }
 body {
     margin: 0;
@@ -87,5 +85,4 @@ main {
     width: 100vw;
     height: 100vh;
     background: grey;
->>>>>>> 09b4193a89e330da0512c8007d57e546aad97a3f
 }
