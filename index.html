@@ -2,14 +2,19 @@
 <html>
   <head lang="en">
     <meta charset="utf-8">
-      <title>Three JS Webpage</title>
-      <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <title>Helidon Orbiting Station v7.3</title>
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- <script type="module" src="/main.js"></script> -->
-
+    <div id="circle"></div>
+    
       <section id="about">
-        <div id="cells">
+        <div>
           <header>
             <a hef="#">A cool logo</a>
             <ul id="menu">
@@ -19,9 +24,19 @@
               <li><a href="#role">Role</a></li>
             </ul>
           </header>
-          <h1>Project helidon</h1>
         </div>
       </section>
+
+      <main id="cells">
+        <canvas id="first-canvas-bg"></canvas>
+        <div class="title-banner">
+          <h1 class="top-header-title">
+            <span class="material-symbols-outlined">satellite_alt</span>
+            Helidon Orbiting Station v7.3
+          </h1>
+        </div>
+      </main>
+
       <section id="intro">
         <div id="net">
           <h1>Intro of the Helidon Orbiting Station v7.3</h1>
@@ -43,7 +58,6 @@
           What can a Galactic Citizen do to Contribute?
         </h1>
       </section>
-
   </body>
   
   <!-- Adding scripts after the body to increase rendering speed -->
@@ -82,4 +96,12 @@
       scaleMobile: 1.00
     })
   </script>  
+  
+  <script type="text/javascript">
+    document.addEventListener('readystatechange', event => { 
+      if (event.target.readyState === "complete") {
+        document.getElementById("circle").style.display = "none";
+      }
+    }, false);
+  </script>
 </html>

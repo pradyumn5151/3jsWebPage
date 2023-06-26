@@ -4,12 +4,14 @@ const scene = new THREE.Scene();
 scene.background = new THREE.Color();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
+const canvas = document.getElementById("first-canvas-bg");
+const renderer = new THREE.WebGLRenderer({ canvas: canvas });
 const light = new THREE.PointLight(0xffffff, 2);
 light.position.set(10, 10, 10);
 scene.add(light);
 
-const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
+// renderer.domElement.style.position = "absolute";
 document.body.appendChild( renderer.domElement );
 
 const geometry = new THREE.SphereGeometry(1, 15, 32);

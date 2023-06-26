@@ -53,3 +53,36 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+body {
+    margin: 0;
+}
+
+main {
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.title-banner {
+    position: absolute;
+}
+
+.top-header-title {
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #abc;
+    margin-top: 50vh;
+}
+
+.material-symbols-outlined {
+    color: #abc;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48
+}
+
+#circle {
+    z-index: 100;
+    margin-top: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: grey;
+}
