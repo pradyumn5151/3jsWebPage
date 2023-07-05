@@ -12,55 +12,57 @@
   <body>
     <!-- <script type="module" src="/main.js"></script> -->
     <div id="circle"></div>
+
     <!-- Navbar -->
-      <header>
-        <a hef="#">A cool logo</a>
-        <ul id="menu">
-          <li><a href="#about">About</a></li>
-          <li><a href="#intro">Intro</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#role">Role</a></li>
-        </ul>
-      </header>
+    <header>
+      <a hef="#">A cool logo</a>
+      <ul id="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#role">Role</a></li>
+      </ul>
+    </header>
+
+    <div id="net"></div>
       
-      <!-- About section -->
-      <section id="about">
-        <main id="cells">
-          <div class="title-banner">
-            <h1 class="top-header-title">
-              <span class="material-symbols-outlined">satellite_alt</span>
-              Helidon Orbiting Station v7.3
-            </h1>
-          </div>
-        </main>
-      </section>
-
-      <!-- Intro section -->
-      <section id="intro">
-        <div id="net">
-          <h1>Intro of the Helidon Orbiting Station v7.3</h1>
+    <!-- About section -->
+    <section class="sec-un" id="about">
+      <main>
+        <div class="title-banner">
+          <h1 class="top-header-title">
+            <span class="material-symbols-outlined">satellite_alt</span>
+            Helidon Orbiting Station v7.3
+          </h1>
         </div>
-      </section>
+      </main>
+    </section>
 
-      <!-- Features -->
-      <section id="features">
-        <h1>
-          Features: 
-          Solar Panels
-          Battery
-          Size
-          Genetic Editor & Simulator
-          Humanity Knowledge Log - Helidon Galactic Wikipedia version JumpingFrog 38
-          12 Cryo Sleeping Chambers - Helidon Cryo Sleeper Unit v983.33.ae
-        </h1>
-      </section>
+    <!-- Intro section -->
+    <section class="sec-un" id="intro">
+      <h1>Intro of the Helidon Orbiting Station v7.3</h1>
+    </section>
 
-      <!-- How to apply section -->
-      <section id="role">
-        <h1>
-          What can a Galactic Citizen do to Contribute?
-        </h1>
-      </section>
+    <!-- Features -->
+    <section class="sec-un" id="features">
+      <h1>
+        Features: 
+        Solar Panels
+        Battery
+        Size
+        Genetic Editor & Simulator
+        Humanity Knowledge Log - Helidon Galactic Wikipedia version JumpingFrog 38
+        12 Cryo Sleeping Chambers - Helidon Cryo Sleeper Unit v983.33.ae
+      </h1>
+    </section>
+
+    <!-- How to apply section -->
+    <section class="sec-un" id="role">
+      <h1>
+        What can a Galactic Citizen do to Contribute?
+      </h1>
+    </section>
+
   </body>
   
   <!-- Adding scripts after the body to increase rendering speed -->
@@ -77,17 +79,6 @@
   }
   </script>
   <script>
-    VANTA.CELLS({
-      el: "#cells",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 500.00,
-      minWidth: 200.00,
-      scale: 1.00
-    })
-  </script>
-  <script>
     VANTA.NET({
       el: "#net",
       mouseControls: true,
@@ -96,7 +87,9 @@
       minHeight: 200.00,
       minWidth: 200.00,
       scale: 1.00,
-      scaleMobile: 1.00
+      scaleMobile: 1.00,
+      color: 0x05F2DB,
+      backgroundColor: 0x081E26,
     })
   </script>  
   
