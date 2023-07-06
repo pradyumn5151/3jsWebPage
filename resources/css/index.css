@@ -13,6 +13,12 @@ a{
     font-size: large;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
 #menu li{
     list-style: none;
     display: inline-block;
