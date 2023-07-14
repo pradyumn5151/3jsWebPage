@@ -49,10 +49,37 @@ Section 2:
 
     Intro of the Helidon Orbiting Station v7.3
 
+    The Helidon Orbiting Station v7.3 was developed from the initial 
+    Helidon Project Standard after numerous hours of human effort and
+    testing. It is believed to be a marvel of the greatest depth.
+    It is designed to provide life support for over a 10 million human 
+    average life hours, enough for around 130 people to live their entire 
+    life spans. Latest standards of Helidon energy generation, 
+    energy storage, life sciences lab, access to Helidon Omnipresent Human 
+    Knowledge Log, along with 12 cryo sleep chambers will enhance the quality 
+    of life and the quality of the Helidon Mission for far longer than planned.
+
+    Version 7.3 was specifically designed for operation in following deep space and 
+    beyond physically accessible parts of the universe:
+    
+    1. Deep Space Orbit around the Galactic Center of Milky Way
+    2. Deep Space Orbit around Planet A124X_03, the 4th planet from the Veda Star
+    3. Deep Space Aster Centric Orbit the binary star system of the Ahamkara and Ravana Stars
+    4. The 3rd Lagrange Point of the "Deadly Whimpering Orange" Neutron Star
+    5. Low Geocentric Orbit around Europa, a moon of Jupiter in the Cradle Solar System
+    6. Low Gamma Examination Orbit around Gargantua, a small black hole passing through the Milky Way
+    7. Open Trajectory into Inter Galactic Space, projecting away from Milky Way into Andromeda Galaxy
+
 Section 3:
     
     Features: 
+
         Solar Panels
+            With the latest Helidon Energy Generation Standards, Solar Panels provided can generate 
+            electrical energy from absorbing photons, neutrons and neutrinos in deep space.
+            The panel sizes and efficiency vary depending on local environments and interstellar wind 
+            attributes. For reference, in low Earth orbit, the panels have a maximum efficiency of 120 KW.
+            
         Battery
         Size
         Genetic Editor & Simulator
