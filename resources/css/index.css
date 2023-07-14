@@ -13,12 +13,6 @@ a{
     font-size: large;
 }
 
-a{
-    color: white;
-    text-decoration: none;
-    font-size: large;
-}
-
 #menu li{
     list-style: none;
     display: inline-block;
@@ -44,6 +38,11 @@ header {
     align-items: center;
     background-color: black;
     position: fixed;
+}
+
+footer{
+    padding: 10px 50px;
+    background-color: black;
 }
 
 section p,h1,h2{
@@ -72,6 +71,10 @@ main {
 .top-header-title {
     font-family: 'Ysabeau SC', sans-serif;
     color: #abc;
+    display: inline;
+    font-size: 75px;
+    text-align: center;
+    width: 1500px;
 }
 
 .material-symbols-outlined {
@@ -117,3 +120,10 @@ main {
 }
 
 .buttonHolder{ text-align: center; }
+
+.footer{
+    color: white;
+    margin: 5px;
+    text-align: center;
+    font-size: small;
+}
