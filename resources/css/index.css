@@ -51,7 +51,7 @@ section p,h1,h2{
     padding:20px;
     color:#05F2DB;
     text-align:center;
-    background-color: #05A6A6;
+    /* background-color: #05A6A6; */
     border-radius:10px;
 }
 
@@ -91,6 +91,29 @@ main {
 .sec-un{
     height: 100vh;  
     display:flex;
+    flex-direction: column;
     justify-content:center;
     align-items:center;
 }
+
+.form{
+    background-color: whitesmoke;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.submitButton{
+    margin-top: 20px;
+    position: relative;
+    background-color: #05F2DB;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 10px 24px;
+    /* Add a hover property after finalising color */
+}
+
+.buttonHolder{ text-align: center; }
