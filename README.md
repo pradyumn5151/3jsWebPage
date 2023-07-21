@@ -78,13 +78,23 @@ Section 3:
             With the latest Helidon Energy Generation Standards, Solar Panels provided can generate 
             electrical energy from absorbing photons, neutrons and neutrinos in deep space.
             The panel sizes and efficiency vary depending on local environments and interstellar wind 
-            attributes. For reference, in low Earth orbit, the panels have a maximum efficiency of 120 KW.
+            attributes. For reference, in low Earth orbit, the panels have a maximum efficiency of 142 KW.
             
         Battery
-        Size
+            Helidon Orbiting Station is equipped with 3 Slow Bio Chemical Cells which
+            store a large amount of energy but can exchange this energy with the 
+            outside only slowly. It is also equipped with similar 3 fast fully chemical
+            cells which can store smaller magnitude of energy but can exchange it at 
+            a much larger rate. The careful arrangement of these two types of cells provides
+            the orbiting station with a large storage of a whopping 72.3 terajoules of energy
+            at maximum capacity which can be exchanged at around 1 megawatt at fastest discharge
+
         Genetic Editor & Simulator
+
         Humanity Knowledge Log - Helidon Galactic Wikipedia version JumpingFrog 38
+
         12 Cryo Sleeping Chambers - Helidon Cryo Sleeper Unit v983.33.ae
+        
 
 Section 4:
 
