@@ -75,27 +75,48 @@ Section 3:
     Features: 
 
         Solar Panels
-            With the latest Helidon Energy Generation Standards, Solar Panels provided can generate 
-            electrical energy from absorbing photons, neutrons and neutrinos in deep space.
-            The panel sizes and efficiency vary depending on local environments and interstellar wind 
-            attributes. For reference, in low Earth orbit, the panels have a maximum efficiency of 142 KW.
+            With the latest Helidon Energy Generation Standards, Solar Panels 
+            provided can generate electrical energy from absorbing photons, 
+            neutrons and neutrinos in deep space. The panel sizes and 
+            efficiency vary depending on local environments and interstellar 
+            wind attributes. For reference, in low Earth orbit, the panels 
+            have a maximum efficiency of 142 KW.
             
         Battery
-            Helidon Orbiting Station is equipped with 3 Slow Bio Chemical Cells which
-            store a large amount of energy but can exchange this energy with the 
-            outside only slowly. It is also equipped with similar 3 fast fully chemical
-            cells which can store smaller magnitude of energy but can exchange it at 
-            a much larger rate. The careful arrangement of these two types of cells provides
-            the orbiting station with a large storage of a whopping 72.3 terajoules of energy
-            at maximum capacity which can be exchanged at around 1 megawatt at fastest discharge
+            Helidon Orbiting Station is equipped with 3 Slow Bio Chemical Cells 
+            which store a large amount of energy but can exchange this energy 
+            with the outside only slowly. It is also equipped with similar 
+            3 fast fully chemical cells which can store smaller magnitude 
+            of energy but can exchange it at a much larger rate. The careful 
+            arrangement of these two types of cells provides the orbiting 
+            station with a large storage of a whopping 72.3 terajoules of energy
+            at maximum capacity which can be exchanged at around 1 megawatt 
+            at fastest discharge.
 
         Genetic Editor & Simulator
+            Helidon Orbiting Station provides a basic but fundamentally complete 
+            set of tools to perform and engineer genetic editing and incubation 
+            platform to test genomes individually. The incubator also has a 
+            full featured microscope to observe, follow and dissect microorganisms. 
+            Scientists can use this to create or modify organisms. 
 
         Humanity Knowledge Log - Helidon Galactic Wikipedia version JumpingFrog 38
+            The JumpingFrog lineage of Helidon Galactic Wikipedia is intended to 
+            provide all human knowledge in a structured format in a single call.
+            All the 7 Helidon Stations are connected with each other over the 
+            InterGlove IG Protocol. As long as some power is available the 7 
+            stations will share and synchronize knowledge on regular intervals.
+
 
         12 Cryo Sleeping Chambers - Helidon Cryo Sleeper Unit v983.33.ae
-        
+            The Cryo Sleeper Units installed on the Helidon Orbiting Station are the
+            highly perfected v900 series, which, given enough power, are 
+            certified for cryo preservation and hibernation in humans for at least 
+            1 Million Years. This provides Helidon Project with unique time
+            traveling strategies and operation. 9 of the Sleeper Units are ready 
+            to be used for cryo sleep by humans, while the remainder 3 are customized
+            for bio preservation of organic life and human embryos.
 
 Section 4:
 
-    What can a Galactic Citizen do to Contribute?
+    What can a Galactic Citizen do to Contribute? 
